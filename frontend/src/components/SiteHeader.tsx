@@ -17,6 +17,7 @@ const SiteHeader = ({ lang, setLang }: Props) => {
           <div>
             <div className="text-[15px] font-black text-black leading-tight">علا عبدالهادي</div>
             <div className="text-[11px] font-medium text-[#666] tracking-[0.08em] uppercase">Ola Abdelhady</div>
+            <div className="text-[10px] font-bold text-[#b8962e] tracking-[0.12em] uppercase mt-[1px]">ABA Target</div>
           </div>
         </div>
         <nav className="flex items-center gap-7">
