@@ -14,7 +14,7 @@ const SiteFooter = ({ lang }: { lang: Lang }) => {
             { href: "https://www.facebook.com/share/e5mRrpkhrNF1xk5j/?mibextid=LQQJ4d", icon: Facebook },
             { href: "https://www.linkedin.com/in/ahmed-abouzeid-5a66641b4", icon: Linkedin },
             { href: "https://m.facebook.com/share/j6XUVSqurufaMrbv/?mibextid=A7sQZp", icon: Facebook },
-            { href: "https://wa.me/966545263917", icon: MessageCircle },
+            { href: "https://wa.me/201005025821", icon: MessageCircle },
           ].map(({ href, icon: Icon }, i) => (
             <a key={i} href={href} target="_blank" rel="noopener noreferrer"
               className="flex items-center justify-center w-[38px] h-[38px] border border-white/20 hover:border-[#b8962e] transition-colors group">

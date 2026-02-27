@@ -24,7 +24,7 @@ const ConsultationCTA = ({ lang }: { lang: Lang }) => {
         <h2 className="text-[clamp(26px,3.5vw,42px)] font-black text-white mb-3">{t.title}</h2>
         <p className="text-[15px] text-white/50 max-w-[460px] mx-auto leading-[1.8] mb-6">{t.desc}</p>
         <a
-          href="https://wa.me/966545263917"
+          href="https://wa.me/201005025821"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-[#b8962e] text-white text-[13px] font-bold px-7 py-[13px] tracking-[0.06em] uppercase hover:bg-[#d4a93a] transition-colors"

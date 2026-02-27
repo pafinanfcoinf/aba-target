@@ -3,7 +3,7 @@ import type { Lang } from "../App";
 const FloatingWhatsApp = ({ lang }: { lang: Lang }) => {
   return (
     <a
-      href="https://wa.me/966545263917"
+      href="https://wa.me/201005025821"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="WhatsApp"

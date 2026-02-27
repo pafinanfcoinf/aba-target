@@ -55,7 +55,7 @@ const HeroSection = ({ lang }: { lang: Lang }) => {
           </ul>
           <div className="flex justify-end">
             <a
-              href="https://wa.me/966545263917"
+              href="https://wa.me/201005025821"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white text-black text-[13px] font-bold px-6 py-[13px] tracking-[0.06em] uppercase hover:bg-[#f5eedc] transition-colors"

@@ -55,7 +55,7 @@ const AvailableCoursesSection = ({ lang }: { lang: Lang }) => {
               </div>
             ))}
             <div className="mt-[22px]">
-              <a href="https://wa.me/966545263917" target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-black text-white text-[13px] font-bold py-[13px] px-6 tracking-[0.06em] uppercase hover:bg-[#2a2a2a] transition-colors">
+              <a href="https://wa.me/201005025821" target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-black text-white text-[13px] font-bold py-[13px] px-6 tracking-[0.06em] uppercase hover:bg-[#2a2a2a] transition-colors">
                 {t.btn}
               </a>
             </div>
