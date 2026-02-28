@@ -33,7 +33,7 @@ function App() {
       <HeroSection lang={lang} />
 
       {/* Tabs Nav */}
-      <div className="sticky top-[62px] sm:top-[78px] z-40 bg-[#f8f7f5] border-b-2 border-black">
+      <div className="sticky top-[62px] sm:top-[82px] z-40 bg-[#f8f7f5] border-b-2 border-black">
         <div className="max-w-[1080px] mx-auto flex">
           <button
             onClick={() => setActiveTab("bio")}
