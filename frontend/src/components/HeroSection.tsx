@@ -23,14 +23,13 @@ const HeroSection = ({ lang }: { lang: Lang }) => {
   const t = T[lang];
   return (
     <section className="bg-black text-white border-b-[3px] border-[#b8962e] overflow-hidden">
-      <div className="max-w-[1080px] mx-auto flex flex-col sm:flex-row min-h-[auto] sm:min-h-[520px]">
-        {/* Image */}
-        <div className="w-full sm:w-[360px] sm:flex-shrink-0 overflow-hidden" style={{ minHeight: '260px' }}>
+      <div className="max-w-[1080px] mx-auto flex flex-col sm:flex-row sm:min-h-[520px]">
+        {/* Image — full natural height, no cropping */}
+        <div className="w-full sm:w-[360px] sm:flex-shrink-0 sm:self-stretch">
           <img
             src="/ola-photo.jpeg"
             alt="علا عبدالهادي"
-            className="w-full h-full object-cover object-center sm:object-top"
-            style={{ minHeight: '260px', maxHeight: '380px' }}
+            className="w-full sm:h-full object-cover object-top"
             loading="eager"
           />
         </div>
@@ -39,7 +38,7 @@ const HeroSection = ({ lang }: { lang: Lang }) => {
           <div className="inline-block text-[9px] sm:text-[10px] font-bold tracking-[0.18em] uppercase text-[#b8962e] border border-[#b8962e] px-[12px] py-[4px] mb-[16px] sm:mb-[22px] w-fit mr-0 ml-auto">
             {t.tag}
           </div>
-          <h1 className="text-[clamp(30px,7vw,62px)] font-black leading-[1.05] text-white mb-1.5">
+          <h1 className="text-[clamp(26px,5vw,62px)] font-black leading-[1.05] text-white mb-1.5">
             {t.name}
           </h1>
           <p className="text-[11px] sm:text-[13px] font-medium text-white/40 tracking-[0.14em] uppercase mb-5">
