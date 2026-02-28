@@ -5,8 +5,8 @@ const SiteFooter = ({ lang }: { lang: Lang }) => {
   const name = lang === "ar" ? "علا عبدالهادي" : "Ola Abdelhady";
   return (
     <footer className="bg-black text-white border-t-[3px] border-[#b8962e]">
-      <div className="max-w-[1080px] mx-auto px-10 py-12 text-center">
-        <p className="text-2xl font-black text-white mb-1">{name}</p>
+      <div className="max-w-[1080px] mx-auto px-4 sm:px-10 py-10 sm:py-12 text-center">
+        <p className="text-xl sm:text-2xl font-black text-white mb-1">{name}</p>
         <p className="text-[11px] font-medium tracking-[0.14em] uppercase text-white/30 mb-6">MA, QBA, IBA · ABA Specialist</p>
         <div className="w-10 h-px bg-[#b8962e] mx-auto mb-6" />
         <div className="flex justify-center gap-2.5 mb-8">

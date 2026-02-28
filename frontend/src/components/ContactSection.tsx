@@ -40,15 +40,15 @@ const ContactSection = ({ lang }: { lang: Lang }) => {
   const inputClass = "w-full font-cairo text-[14px] text-black bg-white border-[1.5px] border-[#d0d0d0] px-[14px] py-[11px] outline-none focus:border-black transition-colors text-right";
 
   return (
-    <section className="py-20 bg-[#f8f7f5] border-t-2 border-black" id="contact">
-      <div className="max-w-[600px] mx-auto px-10">
+    <section className="py-12 sm:py-20 bg-[#f8f7f5] border-t-2 border-black" id="contact">
+      <div className="max-w-[600px] mx-auto px-4 sm:px-10">
         <div className="text-right mb-8">
           <span className="block text-[10px] font-bold tracking-[0.18em] uppercase text-[#b8962e] mb-2.5">{t.eyebrow}</span>
-          <h2 className="text-[clamp(26px,3vw,38px)] font-black text-black leading-[1.1] mb-3">{t.title}</h2>
+          <h2 className="text-[clamp(22px,4vw,38px)] font-black text-black leading-[1.1] mb-3">{t.title}</h2>
           <div className="w-10 h-0.5 bg-[#b8962e] mr-0 ml-auto" />
         </div>
-        <form onSubmit={handleSubmit} className="bg-white border-2 border-black p-10">
-          <div className="grid grid-cols-2 gap-4 mb-4">
+        <form onSubmit={handleSubmit} className="bg-white border-2 border-black p-5 sm:p-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
             <div>
               <label className="block text-[11px] font-bold tracking-[0.1em] uppercase text-black mb-1.5">{t.labelName}</label>
               <input type="text" required placeholder={t.phName} className={inputClass} />
