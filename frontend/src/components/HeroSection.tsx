@@ -25,12 +25,12 @@ const HeroSection = ({ lang }: { lang: Lang }) => {
     <section className="bg-black text-white border-b-[3px] border-[#b8962e] overflow-hidden">
       <div className="max-w-[1080px] mx-auto flex flex-col sm:flex-row min-h-[auto] sm:min-h-[520px]">
         {/* Image */}
-        <div className="w-full sm:w-[360px] sm:flex-shrink-0 overflow-hidden" style={{ maxHeight: '280px' }}>
+        <div className="w-full sm:w-[360px] sm:flex-shrink-0 overflow-hidden" style={{ minHeight: '260px' }}>
           <img
             src="/ola-photo.jpeg"
             alt="علا عبدالهادي"
-            className="w-full h-full object-cover object-top sm:max-h-none"
-            style={{ maxHeight: '280px' }}
+            className="w-full h-full object-cover object-center sm:object-top"
+            style={{ minHeight: '260px', maxHeight: '380px' }}
             loading="eager"
           />
         </div>
