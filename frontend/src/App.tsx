@@ -33,11 +33,11 @@ function App() {
       <HeroSection lang={lang} />
 
       {/* Tabs Nav */}
-      <div className="sticky top-[78px] z-40 bg-[#f8f7f5] border-b-2 border-black">
+      <div className="sticky top-[62px] sm:top-[78px] z-40 bg-[#f8f7f5] border-b-2 border-black">
         <div className="max-w-[1080px] mx-auto flex">
           <button
             onClick={() => setActiveTab("bio")}
-            className={`flex-1 py-[18px] text-center text-[13px] font-bold tracking-widest uppercase border-b-[3px] transition-all ${
+            className={`flex-1 py-[14px] sm:py-[18px] text-center text-[12px] sm:text-[13px] font-bold tracking-widest uppercase border-b-[3px] transition-all ${
               activeTab === "bio"
                 ? "text-black border-black bg-white"
                 : "text-[#666] border-transparent hover:text-black hover:bg-black/[0.02]"
@@ -47,7 +47,7 @@ function App() {
           </button>
           <button
             onClick={() => setActiveTab("courses")}
-            className={`flex-1 py-[18px] text-center text-[13px] font-bold tracking-widest uppercase border-b-[3px] transition-all ${
+            className={`flex-1 py-[14px] sm:py-[18px] text-center text-[12px] sm:text-[13px] font-bold tracking-widest uppercase border-b-[3px] transition-all ${
               activeTab === "courses"
                 ? "text-black border-black bg-white"
                 : "text-[#666] border-transparent hover:text-black hover:bg-black/[0.02]"
